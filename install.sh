@@ -16,7 +16,7 @@ if [ -e "$conf" ]; then
 else
   cat > "$conf" <<'TEMPLATE'
 # Where screenshots get sent. Required.
-# An ssh_config alias, or user@host, or user@192.168.1.180
+# An ssh_config alias, or user@host, or user@192.168.1.10
 SHOT_REMOTE=
 
 # Destination directory on the remote machine. Optional.

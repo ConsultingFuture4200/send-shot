@@ -36,7 +36,7 @@ That copies `send-shot.sh` to `~/.local/bin/` and writes a starter config to
 
 Edit `~/.config/send-shot/config`:
 
-    SHOT_REMOTE=desktop            # ssh alias, or user@host, or user@192.168.1.180
+    SHOT_REMOTE=desktop            # ssh alias, or user@host, or user@192.168.1.10
     SHOT_DEST=/home/you/screenshots
 
 `SHOT_REMOTE` is required. `SHOT_DEST` is optional and defaults to a
